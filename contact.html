@@ -1,0 +1,128 @@
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title> Sports shop website </title>
+        <link rel ="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap"rel="stylesheet">
+        <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&family=Roboto&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+            .container {
+      width: 400px;
+      padding-left: 500px;
+      background-color: none;
+      border: none;
+      margin: 0 auto;
+      margin-top: 50px;
+      color: white;
+      align-items: end;
+      text-align: left;
+      
+    }
+    .container h2{
+        color: white;
+        text-align: center;
+    }
+    
+    input[type=text], input[type=email], input[type=tel] {
+      width: 90%;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      display: inline-block;
+      border: none;
+      background: #f1f1f1;
+      
+    }
+    
+    input[type=text]:focus, input[type=email]:focus, input[type=tel]:focus {
+      background-color: none;
+      outline: none;
+    }
+    
+    button {
+      background-color: skyblue;
+      color: rgb(255, 255, 255);
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      opacity: 0.9;
+    }
+    
+    button:hover {
+      opacity:1;
+    }
+    .main{
+        text-align: center;
+        color: white;
+    }
+    .text-box12{
+        width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    padding-left:400px ;
+    }
+    .text-box12 h1{
+    font-size: 62px;
+    text-align: left;
+}
+.text-box12 h3{
+    text-align: left;
+}
+.text-box12 p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+}
+          </style>
+    </head>
+    <body>
+       <section class="header">
+           <nav>
+               <a href="index.html"><img src="images/logo1.png "></a>
+               <div class="nav-links"id="navLinks">
+                <i class="fa fa-times"oneclick="hideMenu()"></i>
+                   <ul>
+                       <li><a href="./index.html">HOME</a></li>
+                       <li><a href="./about.html">ABOUT</a></li>
+                       <li><a href="./products.html">PRODUCTS</a></li>
+                       <li><a href="./contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars"oneclick="showMenu()" ></i>
+           </nav>
+           <section class="main"><h1><u>Contact Us</u></h1><br><br><br></section>
+           
+           <div class="text-box12">
+            
+            <h3>Phone no: +91 6483573794</h3><br>
+            <h3>e-mail: sdfghjk@gmail.com</h3><br>
+            <h3>Address: 3th cross, 2nd main, Srinagar</h3>
+         </div>
+       
+                <div class="container">
+                    <h2><u>Feedback & Queries</u></h2><br><br>
+                    <label for="name"><b>Name</b></label>
+                    <input type="text" placeholder="Enter Name" name="name" required>
+                  
+                    <label for="email"><b>Email</b></label>
+                    <input type="email" placeholder="Enter Email" name="email" required>
+                  
+                    <label for="contact"><b>Contact Number</b></label>
+                    <input type="tel" placeholder="Enter Contact Number" name="contact" required> 
+        
+                    <label for="city"><b>Message</b></label>
+                    <input type="text" placeholder="Enter queries" name="Message" required>
+                  
+                    <button type="submit">Submit</button>
+                  </div>
+            </section>
+

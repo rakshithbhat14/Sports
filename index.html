@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title> Sports shop website </title>
+        <link rel ="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap"rel="stylesheet">
+        <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    </head>
+    <body>
+       <section class="header">
+           <nav>
+               <a href="index.html"><img src="images/logo1.png "></a>
+               <div class="nav-links"id="navLinks">
+                <i class="fa fa-times"oneclick="hideMenu()"></i>
+                   <ul>
+                       <li><a href="./index.html">HOME</a></li>
+                       <li><a href="./about.html">ABOUT</a></li>
+                       <li><a href="./products.html">PRODUCTS</a></li>
+                       <li><a href="./contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars"oneclick="showMenu()" ></i>
+           </nav>
+           <div class="text-box">
+               <h1>CHAMPIONS CHOICE</h1>
+               <p>Get your Game on</p>
+               <a href="https://en.wikipedia.org/wiki/Sport" class="hero">Know more</a>
+            </div>
+        </section>
+       <!-----product-----` ---->
+       <section class="product">
+
+        <h1>PRODUCTS</h1>
+        <p>we have all kinds of sports equipments</p>
+
+        <div class="row">
+            <div class="product-col">
+                <h3>Cricket</h3>
+                <p>kitbags,shoes,sleeves,capssportsgears </p>
+            </div>
+            <div class="product-col">
+                <h3>Football</h3>
+                <p>football,shoes,spikes,jerseys </p>
+            </div>
+            <div class="product-col">
+                <h3>Badminton</h3>
+                <p>shuttle,strings,nets,bags,rackets</p>
+            </div>   
+        </div>
+        </section>
+      
+        
+       <!---campus--->
+    <section class="campus">
+        <h1>our global </h1>
+        <p> sports equipments</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/cricket.png">
+                <div class="layer">
+                    <h3>cricket </h3>   
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/football.png">
+                <div class="layer">
+                     <h3>football</h3>     
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/badminton.png">
+                <div class="layer">
+                    <h3>badminton </h3> 
+                </div>
+            </div>   
+        </div>
+        
+    </section>
+    <!---------footer------->
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>Champions Choice is your one-stop shop for anything<br> 
+            sports.We cater to every sports lover rightfrom the 
+            youngest<br> joining his or her first camp to the best 
+            sportsman.<br>We believe every sports person deserves top 
+            quality <br>equipments and we assure you to not only make the
+             best<br>choices available but also guide you 
+             honestly<br> when asked for advice
+              on purchasing equipments</p>
+             
+
+    </section>
+    ----->
+    <!---------JavaScript for Toggle Menu------>    
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>   
+   
+    </body>
+</html>
